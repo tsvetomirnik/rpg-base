@@ -1,0 +1,22 @@
+{
+  "name": "rpg-base",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "author": "Tsvetomir Nikolov",
+  "license": "MIT",
+  "scripts": {
+    "test": "karma start karma.conf.js --single-run"
+  },
+  "devDependencies": {
+    "@types/core-js": "^0.9.41",
+    "@types/jasmine": "^2.6.0",
+    "jasmine": "^2.8.0",
+    "karma": "^1.7.1",
+    "karma-cli": "^1.0.1",
+    "karma-jasmine": "^1.1.0",
+    "karma-phantomjs-launcher": "^1.0.4",
+    "karma-typescript": "^3.0.7",
+    "typescript": "^2.5.3"
+  }
+}
